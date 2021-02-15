@@ -1,13 +1,13 @@
 function setup() {
-  createCanvas(1200, 700);
-	bg = loadImage('./drawing.png');
+  createCanvas(2160/2, 1566/2);
+	bg = loadImage('./drawings.png');
 	draw_the_background = true
 	background(255)
 }
 
 function draw() {
 	if (draw_the_background) {
-		image(bg, 350, 100);
+		image(bg, 0, 0, 2160/2, 1566/2);
 	}
 
 	strokeWeight(3);
