@@ -10,7 +10,7 @@ function draw() {
 		image(bg, 0, 0, 2160/2, 1566/2);
 	}
 
-	strokeWeight(3);
+	strokeWeight(1.5);
   stroke(0);
   if (mouseIsPressed === true) {
 		draw_the_background = false
